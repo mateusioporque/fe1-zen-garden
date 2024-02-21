@@ -1,7 +1,27 @@
-html, body {
-    margin: 0;
+html, body {margin: 0;
     padding: 0;
-    box-sizing: border-box;
- }
+    border: 0;
+}
+html{
 
- 
+    background-image: url();
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: #bae1ff;    
+    width: 100vw;
+    max-width: 950px;
+    text-align: center;
+    border-radius: 150px;
+    box-shadow: 20px 20px 10px #000000aa;
+    padding: 25px;
+    margin-top: 150px;
+    margin-bottom: 50px
+}
