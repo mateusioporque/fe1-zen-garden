@@ -1,27 +1,74 @@
+
+
 html, body {margin: 0;
     padding: 0;
     border: 0;
 }
 html{
 
-    background-image: url();
+    background-image: url(imagens/fundo_mine.png);
     background-repeat: repeat;
     background-attachment: fixed;
     background-blend-mode: overlay;
     min-height: 100vh;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
 }
 
 body{
-    background-color: #bae1ff;    
+    background-image: url(imagens/madeira_mine.jpg);    
     width: 100vw;
     max-width: 950px;
     text-align: center;
-    border-radius: 150px;
     box-shadow: 20px 20px 10px #000000aa;
     padding: 25px;
     margin-top: 150px;
     margin-bottom: 50px
 }
+h1, h2 , h3{  
+    color: #5B442A;
+    text-shadow: 2px 1px 2px #382b1b;
+
+   
+}
+
+ h1 { font-size: 40px;;
+      
+ }
+
+ h2 { font-size: 30px;
+
+ }
+ p {
+    color: #654A2C;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+ }
+
+ ol {
+    color: #654A2C;
+    text-align: left;
+    font-family: 'Varela Round', sans-serif;
+ }
+
+
+a {
+    color: #5B442A;
+}
+
+a:hover {
+    color: #382b1b;
+}
+
+
+
+
+
+  
+
+
+
+
+
+
