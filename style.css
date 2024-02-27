@@ -1,4 +1,14 @@
+@font-face {
+    font-family: pok;
+    src: url(imagens/SuperMario256.ttf) format("truetype");
+    font-weight: normal;
+}
 
+@font-face {
+    font-family: pix;
+    src: url(imagens/SuperMario85.ttf) format("truetype");
+    font-weight: normal;
+}
 
 html, body {margin: 0;
     padding: 0;
@@ -6,7 +16,7 @@ html, body {margin: 0;
 }
 html{
 
-    background-image: url(imagens/fundo_mine.png);
+    background-image: url(imagens/ceu_mario.jpg);
     background-repeat: repeat;
     background-attachment: fixed;
     background-blend-mode: overlay;
@@ -17,18 +27,21 @@ html{
 }
 
 body{
-    background-image: url(imagens/madeira_mine.jpg);    
+    background-image: url(imagens/tijolos_mario.jpg);    
     width: 100vw;
     max-width: 950px;
     text-align: center;
     box-shadow: 20px 20px 10px #000000aa;
     padding: 25px;
     margin-top: 150px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    border-radius: 25px;
 }
+
 h1, h2 , h3{  
-    color: #5B442A;
-    text-shadow: 2px 1px 2px #382b1b;
+    color: #ffffff;
+    text-shadow: 2px 1px 2px #383434;
+    font-family: pok;
 
    
 }
@@ -40,26 +53,54 @@ h1, h2 , h3{
  h2 { font-size: 30px;
 
  }
+ h3{
+    font-size: 14px;
+ }
  p {
-    color: #654A2C;
+    color: #ffffff;
     font-size: 15px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: pix;
  }
 
  ol {
-    color: #654A2C;
+    color: #ffffff;
     text-align: left;
-    font-family: 'Varela Round', sans-serif;
+    font-family: pix;
  }
 
 
 a {
-    color: #5B442A;
+    color: #ffffff;
 }
 
 a:hover {
-    color: #382b1b;
+    color: #000000;
 }
+
+.extra2 {
+    z-index: 1;
+    height: 800px;
+    width: 50%;
+    position: absolute;
+    right: -200px;
+    top: 1360px;
+    background-image: url(imagens/mario.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.extra1 {
+    z-index: 1;
+    height: 800px;
+    width: 50%;
+    position: absolute;
+    right: 1050px;
+    top: 130px;
+    background-image: url(imagens/luigi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 
