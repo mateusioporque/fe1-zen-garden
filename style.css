@@ -38,7 +38,7 @@ body{
     border-radius: 25px;
 }
 
-h1, h2 , h3{  
+h1, h2 , h3, ul,li, a {  
     color: #ffffff;
     text-shadow: 2px 1px 2px #000000;
     font-family: pok;
@@ -59,14 +59,14 @@ h1, h2 , h3{
  p {
     color: #ffffff;
     font-size: 15px;
-    font-family: pix;
+    font-family: pok;
     text-shadow: 2px 1px 2px #000000;
  }
 
  ol {
     color: #ffffff;
     text-align: left;
-    font-family: pix;
+    font-family: pok;
     text-shadow: 2px 1px 2px #000000;
  }
 
@@ -76,17 +76,17 @@ a {
 }
 
 a:hover {
-    color: #000000;
+    color: #717171;
 }
 
 .extra2 {
     z-index: 1;
     height: 800px;
-    width: 50%;
+    width: 230px;
     position: absolute;
-    right: -200px;
+    right: 70px;
     top: 1360px;
-    background-image: url(imagens/mario.png);
+    background-image: url(imagens/luigi.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -94,17 +94,17 @@ a:hover {
 .extra1 {
     z-index: 1;
     height: 800px;
-    width: 50%;
+    width: 230px;
     position: absolute;
-    right: 1200px;
-    top: 130px;
-    background-image: url(imagens/luigi.png);
+    right: 1500px;
+    top: 100px;
+    background-image: url(imagens/mario.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .extra3{
-    background-image: url(imagens/);
+    background-image: url(imagens/terra.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
@@ -112,6 +112,12 @@ a:hover {
     position: fixed;
     bottom: 0px;
     z-index: 5;
+    left: 0;
+}
+.page-wrapper{
+    background: #00000077;
+    padding: 25px;
+    border-radius: 25px;
 }
 
 
