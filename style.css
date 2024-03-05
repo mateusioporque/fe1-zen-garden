@@ -42,6 +42,7 @@ h1, h2 , h3, ul,li, a {
     color: #ffffff;
     text-shadow: 2px 1px 2px #000000;
     font-family: pok;
+    text-align: center;
 
    
 }
@@ -79,6 +80,10 @@ a:hover {
     color: #717171;
 }
 
+li{
+    list-style: none;
+}
+
 .extra2 {
     z-index: 1;
     height: 800px;
@@ -114,6 +119,8 @@ a:hover {
     z-index: 5;
     left: 0;
 }
+
+
 .page-wrapper{
     background: #00000077;
     padding: 25px;
